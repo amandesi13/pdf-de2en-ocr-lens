@@ -1,0 +1,5 @@
+Spannung -> voltage
+Strom -> current
+Leistung -> power
+Messung -> measurement
+Steuerung -> control
