@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "pdf-de2en-ocr-lens"
 version = "0.1.0"
-description = "German-to-English PDF converter with OCR support for diagrams and graphics."
+description = "German-to-English technical PDF translator for students, with OCR support for diagrams and graphics."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }

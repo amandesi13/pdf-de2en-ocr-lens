@@ -1,12 +1,12 @@
-# PDF DE2EN OCR Lens
+# Technical PDF Translator for Students
 
-German-to-English PDF converter that extracts both selectable PDF text and OCR text from diagrams, screenshots, labels, and scanned graphics.
+German-to-English technical PDF translator for students who need to understand lecture notes, datasheets, lab manuals, research papers, and diagrams without losing the meaning hidden inside figures.
 
-This project is designed for technical PDFs: datasheets, lecture notes, research papers, semiconductor documentation, telecom architecture slides, and lab reports where important German labels may be embedded inside figures.
+The package name is `pdf-de2en-ocr-lens`, but the product idea is simple: upload a German technical PDF and get an English reading view plus a review table that includes both normal PDF text and OCR text from diagrams, screenshots, labels, and scanned graphics.
 
-## Why This Project Exists
+## Why Students Need This
 
-Most PDF translators only handle selectable text. Technical PDFs often hide meaning inside:
+Most PDF translators handle selectable text, but technical study material often hides important meaning inside:
 
 - block diagrams
 - screenshots
@@ -15,7 +15,9 @@ Most PDF translators only handle selectable text. Technical PDFs often hide mean
 - architecture figures
 - embedded images
 
-`pdf-de2en-ocr-lens` treats the page as both a document and an image. It extracts native PDF text, renders each page, OCRs the rendered image, deduplicates overlapping text, translates the German content, and writes reviewable outputs.
+This project treats each page as both a document and an image. It extracts native PDF text, renders each page, OCRs the rendered image, deduplicates overlapping text, translates the German content, and writes reviewable outputs.
+
+It is especially useful for international students in Germany reading technical material in electronics, telecom, embedded systems, computer science, and engineering courses.
 
 ## Features
 
@@ -133,6 +135,10 @@ This project demonstrates:
 - CLI design and testable pipeline architecture.
 - CI with GitHub Actions.
 - Practical product thinking for real technical-document workflows.
+
+## Product Direction
+
+This project is the technical-document translation engine that can later plug into broader student tools, such as `auslander-doc-assistant` for German bureaucracy documents or a study assistant for technical PDFs.
 
 ## Roadmap
 
