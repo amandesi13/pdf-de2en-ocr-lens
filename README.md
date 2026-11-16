@@ -1,6 +1,9 @@
 # Technical PDF Translator for Students
 
-[![CI](https://github.com/amandesi13/pdf-de2en-ocr-lens/actions/workflows/ci.yml/badge.svg)](https://github.com/amandesi13/pdf-de2en-ocr-lens/actions/workflows/ci.yml)\n[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB)](https://www.python.org/)\n[![OCR: Tesseract](https://img.shields.io/badge/OCR-Tesseract-5A5A5A)](https://github.com/tesseract-ocr/tesseract)\n[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n
+[![CI](https://github.com/amandesi13/pdf-de2en-ocr-lens/actions/workflows/ci.yml/badge.svg)](https://github.com/amandesi13/pdf-de2en-ocr-lens/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB)](https://www.python.org/)
+[![OCR: Tesseract](https://img.shields.io/badge/OCR-Tesseract-5A5A5A)](https://github.com/tesseract-ocr/tesseract)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 German-to-English technical PDF translator for students who need to understand lecture notes, datasheets, lab manuals, research papers, and diagrams without losing the meaning hidden inside figures.
 
